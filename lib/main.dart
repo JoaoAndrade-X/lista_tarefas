@@ -83,7 +83,7 @@ class _HomeState extends State<Home> {
                   ),
                   onChanged: (c) {
                     setState(() {
-                      _toDoList[index]["ok"] = c;Ad
+                      _toDoList[index]["ok"] = c;
                     });
                   },
                 );
