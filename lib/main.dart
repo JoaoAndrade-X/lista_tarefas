@@ -112,7 +112,7 @@ class _HomeState extends State<Home> {
     );
   }
 
-  Widget buildItem(context, index) {
+  Widget buildItem(BuildContext context, int index) {
     return Dismissible(
       key: Key(DateTime.now().microsecondsSinceEpoch.toString()),
       background: Container(
